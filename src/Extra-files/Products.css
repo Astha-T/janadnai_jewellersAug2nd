@@ -1,0 +1,50 @@
+
+.products {
+    display: block;
+}
+
+.products figure:hover{
+    box-shadow: 0px 5px 22px rgb(17 17 18 / 7%);
+    border-radius: 24px;
+    background: #f5d6d9cc;
+}
+.products figure img {
+    vertical-align: middle;
+    border-style: none;
+    padding: 11px 0px;
+    width: 70%;
+    object-fit: contain;
+}
+.products button {
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    border: #B22D31;
+    background: #B22D31;
+    border-radius: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+
+.products h5 {
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    color: #191919;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.products p {
+    font-size: 14px;
+    color: #B22D31;
+    margin-bottom: 10px;
+}
+
