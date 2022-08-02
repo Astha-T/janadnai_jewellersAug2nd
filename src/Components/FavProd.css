@@ -1,0 +1,25 @@
+.favprod li{
+ margin-top: 20px;
+  margin-left: 50px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  display: inline;
+  list-style: none;
+  list-style-type: none;
+}
+
+.favprod h3 {
+    font-size: 15px;
+    font-family: 'Poppins';
+    display: inline;
+    margin-left: 30px;
+}
+
+.favprod img {
+     height: fit-content;
+     width: fit-content;
+     border: none;
+     display: inline;
+     margin-left: 10px;
+}

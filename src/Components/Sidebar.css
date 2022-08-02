@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    font-family: "Poppins";
+}
+
+.my-navbar {
+    box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
+    position: relative;
+    width: 100%;
+    background: #fff4f5;
+}
+
+.signup {
+    border: 1px solid #b22d31;
+    border-radius: 40px;
+    background: #fff4f5;
+    color: #b22d31 !important;
+    padding: 7px 10px;
+    margin: 0px 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    width: auto;
+}
+
+nav .fa-search {
+    border: none;
+    background-color: transparent;
+}
+
+nav .container-fluid {
+    padding: 0px 46px;
+}
+
+.nav-link {
+    transition: 0.3s ease;
+    padding: 5px;
+}
+
+a.nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #191919 !important;
+}
+.nav-item ul li {
+    display: inline-block;
+}
+.nav-item ul{
+   
+    border: 1px solid #b22d31;
+    border-radius: 40px;
+    background: #fff4f5;
+    color: #b22d31 !important;
+    padding: 0px 10px;
+    margin: 0px 10px;
+
+}
+.nav-item .dropdown-menu{
+    border: none !important;
+    background: white;
+    min-width: 5rem !important;
+}
+
+.navbar-form-search {
+    position: relative;
+  }
+  .navbar-form-search .form-control {
+    width: 250px;
+    background: #FFF4F5 !important;
+  }
+  .navbar-form-search .btn {
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+  }
+  .navbar-form-search .btn:active, .navbar-form-search .btn:hover, .navbar-form-search .btn:focus {
+    color: #000;
+    outline: none;
+    box-shadow: none;
+  }
+  .navbar-form-search .search-form-container {
+    text-align: right;
+    position: absolute;
+    width: 250px;
+    height: 39px;
+    overflow: hidden;
+    background: transparent;
+    right: 29px;
+    top: 42px;
+    z-index: 9;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-form-search .search-form-container.hdn {
+    width: 0;
+  }
+  .navbar-form-search .search-form-container .search-input-group {
+    width: 300px;
+  }
+  #hide-search-input-container {
+    position: absolute;
+    right: -10px;
+    font-size: 12px;
+    top: -7px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .nav-link {
+      color: #000 !important;
+  }
+  .dropdown-toggle{
+      padding-left: 26px;
+  }
+
+  /* ul.navbar-nav,
+  .fa-search {
+      padding-left: 22px;
+  } */
+
+  a.nav-link:hover {
+      background: #f9f9f9;
+      border: 1px solid #f9f9f9;
+      border-radius: 40px;
+      padding-left: 26px;
+  }
+
+  .signup {
+      padding: 7px 10px !important;
+      width: fit-content;
+      margin-left: -9px;
+  }
+  .navbar-form-search {
+      position: absolute;
+      right: 54px;
+      top: 11px;
+  }
+  .nav-item ul {
+      border: 1px solid #b22d31;
+      border-radius: 40px;
+      background: #fff4f5;
+      color: #b22d31 !important;
+      padding: 0px 7px;
+      margin: 12px 10px 13px -9px;
+      width: fit-content;
+  }
+  .nav-item ul li a{
+      background: transparent;
+  border: 1px solid transparent;
+  }
+  .nav-item ul li a:hover{
+      background: transparent !important;
+  border: 1px solid transparent !important;
+  }
+
+  /* nav .fa-search {
+      border: none;
+      background-color: transparent;
+      position: absolute;
+      right: 60px;
+      font-size: 19px;
+      color: #646060;
+      top: 21px;
+  } */
+
+  nav .fa-search:focus {
+      color: #b22d31;
+      outline: none;
+  }
+
+  .navbar-toggler:focus {
+      color: #b22d31 !important;
+      outline: none;
+  }
+  .navbar-nav .dropdown-menu{
+      background: transparent;
+  }
+}
+  @media (min-width: 720px) and (max-width: 767px){
+    .navbar-form-search{
+        position: absolute;
+        top: 9px !important;
+        right: 70px;
+
+    }
+    .userli ul{
+        padding: 0px 20px 0px 20px;
+        margin: 16px 10px 10px -9px;
+        width: fit-content;
+        border-radius: 40px;
+        }
+        .userli ul:hover{
+            border-radius: 10px;
+        }
+        .userli ul li a{
+            background: transparent;
+        border: 1px solid transparent;
+        padding-left: 25px;
+        }
+        .userli ul li a:hover{
+            background: transparent !important;
+        border: 1px solid transparent !important;
+        }
+        .userli .dropdown-menu{
+            background: transparent;
+        }
+        .userli .dropdown-toggle:hover{
+            padding-left: 25px;
+        }
+        .signup {
+            padding: 7px 10px !important;
+            margin-left: -11px !important;
+            width: fit-content;
+        }
+        .signupli{
+            margin-top: 13px;
+        }
+}
+
+
+@media (min-width: 600px) and (max-width: 667px) {
+    .fa-search {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        top: 21px;
+        right: 63px;
+    }
+
+    .signup {
+        padding: 7px 10px !important;
+        margin-left: -11px !important;
+        width: fit-content;
+    }
+    .signupli{
+        margin-top: 13px;
+    }
+
+    nav ul {
+        padding-left: 20px !important;
+    }
+    .position_banner{
+        height: 260px !important;
+        padding-top: 27px;
+    }
+    .details_section {
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .product .carousel-item img{
+        width: 45%;
+    }
+    .product .carousel-control-next{
+        margin-right: -21px !important;
+    }
+    .product .carousel-control-prev{
+        margin-left: -21px !important;
+    }
+    .slider_txt {
+        padding: 0% 4% 4% 4% !important;
+    }
+    .enquiry{
+        padding: 10px 20%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 19%;
+    }
+    .product #carousel-thumbs{
+        margin: 5px;
+        padding: 0px 0px;
+    }
+    .col-3{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .sec_section .banner img {
+        height: 335px !important;
+        border: 1px solid transparent;
+        border-radius: 100px;
+    }
+    .subscribe button{
+        height: 42px;
+    }
+    .userli ul{
+        padding: 0px 20px 0px 20px;
+        margin: 16px 10px 10px -12px;
+        width: fit-content;
+        border-radius: 40px;
+        }
+        .userli ul:hover{
+            border-radius: 10px;
+        }
+        .userli ul li a{
+            background: transparent;
+        border: 1px solid transparent;
+        padding-left: 25px;
+        }
+        .userli ul li a:hover{
+            background: transparent !important;
+        border: 1px solid transparent !important;
+        }
+        .userli .dropdown-menu{
+            background: transparent;
+        }
+        .userli .dropdown-toggle:hover{
+            padding-left: 25px;
+        }
+        .navbar-form-search{
+            position: absolute;
+            top: 1px;
+            right: 25px;
+    
+        }
+        .navbar-form-search .search-form-container{
+            right: 80px;
+        }
+        
+    
+}
+
+@media only screen and (max-width: 393px){
+    .position_banner {
+        height: 202px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .subscribe input {
+        width: 185px !important;
+    }
+
+    .goldpage .subscribe input {
+        width: 185px !important;
+    }
+    .position_banner {
+        height: 183px;
+    }
+    .product #carousel-thumbs{
+        top: 27px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .position_banner {
+        height: 240px;
+    }
+    .details_section p{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+
+    .subscribe input {
+        width: 190px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* .fa-search {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        top: 21px;
+        right: 90px;
+    } */
+    .signup {
+      padding: 7px 10px !important;
+      margin-left: -33px !important;
+      width: fit-content;
+  }
+
+  .nav ul {
+      padding-left: 20px !important;
+  }
+  .signup {
+    padding: 7px 10px !important;
+    margin-left: -33px !important;
+    width: fit-content;
+}
+
+nav ul {
+    padding-left: 20px !important;
+}
+}
